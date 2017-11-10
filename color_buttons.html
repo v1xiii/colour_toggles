@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Colour Toggles</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./color_buttons.css">
+	<script src="color_buttons.js"></script>
+</head>
+<body>
+<header>
+	<h1>COLOUR TOGGLES</h1>
+</header>
+<div id="color_box">
+</div>
+<div id="button_box">
+	<button type="button" id="red" onclick="colorChanger(this.id)">Red</button>
+	<button type="button" id="orange" onclick="colorChanger(this.id)">Orange</button>
+	<button type="button" id="yellow" onclick="colorChanger(this.id)">Yellow</button>
+	<button type="button" id="green" onclick="colorChanger(this.id)">Green</button>
+	<button type="button" id="blue" onclick="colorChanger(this.id)">Blue</button>
+	<button type="button" id="indigo" onclick="colorChanger(this.id)">Indigo</button>
+	<button type="button" id="violet" onclick="colorChanger(this.id)">Violet</button>
+
+<!--	discovered a cooler way of passing the parameter with the technique above. 	
+
+	<button type="button" id="red" onclick="colorChanger('red')">Red</button>
+	<button type="button" id="orange" onclick="colorChanger('orange')">Orange</button>
+	<button type="button" id="yellow" onclick="colorChanger('yellow')">Yellow</button>
+	<button type="button" id="green" onclick="colorChanger('green')">Green</button>
+	<button type="button" id="blue" onclick="colorChanger('blue')">Blue</button>
+	<button type="button" id="indigo" onclick="colorChanger('indigo')">Indigo</button>
+	<button type="button" id="violet" onclick="colorChanger('violet')">Violet</button>
+-->
+</div>
+</body>
+</html>
